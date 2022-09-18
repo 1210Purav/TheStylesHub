@@ -1,0 +1,622 @@
+body{
+    background-image: linear-gradient(black,red,black);
+}
+#reviews{
+    margin-top: 5%;
+    /* display: flex; */
+}
+.review1{
+position: relative;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+
+}
+.review1 .cont{
+    position: relative;
+        max-width: 800px;
+        height: 420px;
+        width: 800px;
+        background: rgba(255, 255, 255, 0.082);
+        padding: 20px 15px;
+        margin: 30px 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 5px 202px rgba(26, 26, 29, 0.6);
+}
+
+.review1 .cont:hover{
+    border-radius: 12px;
+    transition: all 0.1s ease-in-out;
+    background-color: white;
+    height: 500px;
+}
+.review1 .cont .imgbx{
+    position: relative;
+        width: 460px;
+        height: 460px;
+        top: -30px;
+        left: 20px;
+        z-index: 1;
+        filter: drop-shadow(6px 5px 6px rgb(18, 20, 44));
+}
+
+.review1 .cont .imgbx img{
+    max-width: 100%;
+}
+.review1 .cont .content{
+    position: relative;
+        margin-top: 140px;
+        padding: 10px 15px;
+        text-align: center;
+        color: #111;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s ease-in;
+}
+.review1 .cont:hover .content{
+    visibility: visible;
+        opacity: 1;
+        margin-top: -10px;
+        transition-delay: 0.5s ease-in;
+}
+.review2{
+position: relative;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 30px;
+
+}
+.review2 .cont{
+    position: relative;
+        max-width: 800px;
+        height: 420px;
+        width: 800px;
+            background: rgba(255, 255, 255, 0.082);
+        padding: 20px 15px;
+        margin: 30px 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 5px 202px rgba(26, 26, 29, 0.6);
+}
+
+.review2 .cont:hover{
+    border-radius: 12px;
+    transition: all 0.1s ease-in-out;
+        background-color: white;
+    height: 500px;
+}
+.review2 .cont .imgbx{
+    position: relative;
+        width: 460px;
+        height: 460px;
+        top: -30px;
+        left: 20px;
+        z-index: 1;
+        filter: drop-shadow(6px 5px 6px rgb(18, 20, 44));
+}
+
+.review2 .cont .imgbx img{
+    max-width: 100%;
+}
+.review2 .cont .content{
+    position: relative;
+        margin-top: 140px;
+        padding: 10px 15px;
+        text-align: center;
+        color: #111;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s ease-in;
+}
+.review2 .cont:hover .content{
+    visibility: visible;
+        opacity: 1;
+        margin-top: -10px;
+        transition-delay: 0.5s ease-in;
+}
+
+.review3{
+position: relative;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+
+}
+.review3 .cont{
+    position: relative;
+        max-width: 800px;
+        height: 420px;
+        width: 800px;
+                background: rgba(255, 255, 255, 0.082);
+        padding: 20px 15px;
+        margin: 30px 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 5px 202px rgba(26, 26, 29, 0.6);
+}
+
+.review3 .cont:hover{
+    border-radius: 12px;
+    transition: all 0.1s ease-in-out;
+        background-color: white;
+    height: 500px;
+}
+.review3 .cont .imgbx{
+    position: relative;
+        width: 460px;
+        height: 460px;
+        top: -30px;
+        left: 20px;
+        z-index: 1;
+        filter: drop-shadow(6px 5px 6px rgb(18, 20, 44));
+}
+
+.review3 .cont .imgbx img{
+    max-width: 100%;
+}
+.review3 .cont .content{
+    position: relative;
+        margin-top: 140px;
+        padding: 10px 15px;
+        text-align: center;
+        color: #111;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s ease-in;
+}
+.review3 .cont:hover .content{
+    visibility: visible;
+        opacity: 1;
+        margin-top: -10px;
+        transition-delay: 0.5s ease-in;
+}
+
+.review4{
+position: relative;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 30px;
+
+}
+.review4 .cont{
+    position: relative;
+        max-width: 800px;
+        height: 420px;
+        width: 800px;
+                background: rgba(255, 255, 255, 0.082);
+        padding: 20px 15px;
+        margin: 30px 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 5px 202px rgba(26, 26, 29, 0.6);
+}
+
+.review4 .cont:hover{
+    border-radius: 12px;
+    transition: all 0.1s ease-in-out;
+        background-color: white;
+    height: 500px;
+}
+.review4 .cont .imgbx{
+    position: relative;
+        width: 460px;
+        height: 460px;
+        top: -30px;
+        left: 20px;
+        z-index: 1;
+        filter: drop-shadow(6px 5px 6px rgb(18, 20, 44));
+}
+
+.review4 .cont .imgbx img{
+    max-width: 100%;
+}
+.review4 .cont .content{
+    position: relative;
+        margin-top: 140px;
+        padding: 10px 15px;
+        text-align: center;
+        color: #111;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s ease-in;
+}
+.review4 .cont:hover .content{
+    visibility: visible;
+        opacity: 1;
+        margin-top: -10px;
+        transition-delay: 0.5s ease-in;
+}
+.review5{
+position: relative;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+
+}
+.review5 .cont{
+    position: relative;
+        max-width: 800px;
+        height: 420px;
+        width: 800px;
+            background: rgba(255, 255, 255, 0.082);
+        padding: 20px 15px;
+        margin: 30px 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 5px 202px rgba(26, 26, 29, 0.6);
+}
+
+.review5 .cont:hover{
+    border-radius: 12px;
+    transition: all 0.1s ease-in-out;
+        background-color: white;
+    height: 500px;
+}
+.review5 .cont .imgbx{
+    position: relative;
+        width: 460px;
+        height: 460px;
+        top: -30px;
+        left: 20px;
+        z-index: 1;
+        filter: drop-shadow(6px 5px 6px rgb(18, 20, 44));
+}
+
+.review5 .cont .imgbx img{
+    max-width: 100%;
+}
+.review5 .cont .content{
+    position: relative;
+        margin-top: 140px;
+        padding: 10px 15px;
+        text-align: center;
+        color: #111;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s ease-in;
+}
+.review5 .cont:hover .content{
+    visibility: visible;
+        opacity: 1;
+        margin-top: -10px;
+        transition-delay: 0.5s ease-in;
+}
+.review6{
+position: relative;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 30px;
+
+}
+.review6 .cont{
+    position: relative;
+        max-width: 800px;
+        height: 420px;
+        width: 800px;
+                background: rgba(255, 255, 255, 0.082);
+        padding: 20px 15px;
+        margin: 30px 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 5px 202px rgba(26, 26, 29, 0.6);
+}
+
+.review6 .cont:hover{
+    border-radius: 12px;
+    transition: all 0.1s ease-in-out;
+        background-color: white;
+    height: 500px;
+}
+.review6 .cont .imgbx{
+    position: relative;
+        width: 460px;
+        height: 460px;
+        top: -30px;
+        left: 20px;
+        z-index: 1;
+        filter: drop-shadow(6px 5px 6px rgb(18, 20, 44));
+}
+
+.review6 .cont .imgbx img{
+    max-width: 100%;
+}
+.review6 .cont .content{
+    position: relative;
+        margin-top: 140px;
+        padding: 10px 15px;
+        text-align: center;
+        color: #111;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s ease-in;
+}
+.review6 .cont:hover .content{
+    visibility: visible;
+        opacity: 1;
+        margin-top: -10px;
+        transition-delay: 0.5s ease-in;
+}
+.review7{
+position: relative;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+
+}
+.review7 .cont{
+    position: relative;
+        max-width: 800px;
+        height: 420px;
+        width: 800px;
+        background: rgba(255, 255, 255, 0.082);
+        padding: 20px 15px;
+        margin: 30px 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 5px 202px rgba(26, 26, 29, 0.6);
+}
+
+.review7 .cont:hover{
+    border-radius: 12px;
+    transition: all 0.1s ease-in-out;
+        background-color: white;
+    height: 500px;
+}
+.review7 .cont .imgbx{
+    position: relative;
+        width: 460px;
+        height: 460px;
+        top: -30px;
+        left: 20px;
+        z-index: 1;
+        filter: drop-shadow(6px 5px 6px rgb(18, 20, 44));
+}
+
+.review7 .cont .imgbx img{
+    max-width: 100%;
+}
+.review7 .cont .content{
+    position: relative;
+        margin-top: 140px;
+        padding: 10px 15px;
+        text-align: center;
+        color: #111;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s ease-in;
+}
+.review7 .cont:hover .content{
+    visibility: visible;
+        opacity: 1;
+        margin-top: -10px;
+        transition-delay: 0.5s ease-in;
+}
+.review8{
+position: relative;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 30px;
+
+}
+.review8 .cont{
+    position: relative;
+        max-width: 800px;
+        height: 420px;
+        width: 800px;
+            background: rgba(255, 255, 255, 0.082);
+        padding: 20px 15px;
+        margin: 30px 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 5px 202px rgba(26, 26, 29, 0.6);
+}
+
+.review8 .cont:hover{
+    border-radius: 12px;
+    transition: all 0.1s ease-in-out;
+        background-color: white;
+    height: 500px;
+}
+.review8 .cont .imgbx{
+    position: relative;
+        width: 460px;
+        height: 460px;
+        top: -30px;
+        left: 20px;
+        z-index: 1;
+        filter: drop-shadow(6px 5px 6px rgb(18, 20, 44));
+}
+
+.review8 .cont .imgbx img{
+    max-width: 100%;
+}
+.review8 .cont .content{
+    position: relative;
+        margin-top: 140px;
+        padding: 10px 15px;
+        text-align: center;
+        color: #111;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s ease-in;
+}
+.review8 .cont:hover .content{
+    visibility: visible;
+        opacity: 1;
+        margin-top: -10px;
+        transition-delay: 0.5s ease-in;
+}
+.review9{
+position: relative;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+
+}
+.review9 .cont{
+    position: relative;
+        max-width: 800px;
+        height: 420px;
+        width: 800px;
+            background: rgba(255, 255, 255, 0.082);
+        padding: 20px 15px;
+        margin: 30px 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 5px 202px rgba(26, 26, 29, 0.6);
+}
+
+.review9 .cont:hover{
+    border-radius: 12px;
+    transition: all 0.1s ease-in-out;
+    background-color: white;
+    height: 500px;
+}
+.review9 .cont .imgbx{
+    position: relative;
+        width: 460px;
+        height: 460px;
+        top: -30px;
+        left: 20px;
+        z-index: 1;
+        filter: drop-shadow(6px 5px 6px rgb(18, 20, 44));
+}
+
+.review9 .cont .imgbx img{
+    max-width: 100%;
+}
+.review9 .cont .content{
+    position: relative;
+        margin-top: 140px;
+        padding: 10px 15px;
+        text-align: center;
+        color: #111;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s ease-in;
+}
+.review9 .cont:hover .content{
+    visibility: visible;
+        opacity: 1;
+        margin-top: -10px;
+        transition-delay: 0.5s ease-in;
+}
+.review10{
+position: relative;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 30px;
+
+}
+.review10 .cont{
+    position: relative;
+        max-width: 800px;
+        height: 420px;
+        width: 800px;
+            background: rgba(255, 255, 255, 0.082);
+        padding: 20px 15px;
+        margin: 30px 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 5px 202px rgba(26, 26, 29, 0.6);
+}
+
+.review10 .cont:hover{
+    border-radius: 12px;
+    transition: all 0.1s ease-in-out;
+        background-color: white;
+    height: 500px;
+}
+.review10 .cont .imgbx{
+    position: relative;
+        width: 460px;
+        height: 460px;
+        top: -30px;
+        left: 20px;
+        z-index: 1;
+        filter: drop-shadow(6px 5px 6px rgb(18, 20, 44));
+}
+
+.review10 .cont .imgbx img{
+    max-width: 100%;
+}
+.review10 .cont .content{
+    position: relative;
+        margin-top: 140px;
+        padding: 10px 15px;
+        text-align: center;
+        color: #111;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s ease-in;
+}
+.review10 .cont:hover .content{
+    visibility: visible;
+        opacity: 1;
+        margin-top: -10px;
+        transition-delay: 0.5s ease-in;
+}
+
+@media only screen and(max-width: 600px){
+.review1{
+    align-items: center;
+}
+.review2{
+    align-items: center;
+}
+.review3{
+    align-items: center;
+}
+.review4{
+    align-items: center;
+}
+.review5{
+    align-items: center;
+}
+.review6{
+    align-items: center;
+}
+.review7{
+    align-items: center;
+}
+.review8{
+    align-items: center;
+}
+.review9{
+    align-items: center;
+}
+.review10{
+    align-items: center;
+}
+}
